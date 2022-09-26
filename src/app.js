@@ -92,7 +92,12 @@ const processOptions = async function () {
     console.error('This may take some time...');
 
     const exec = require('child_process').exec;
-    const proc = exec(`${options}`);
+    exec(`${options}`);
+    console.log(
+      `File will be output to ${process.cwd()}/region-combined-count-${
+        files.length
+      }.osm.pbf`
+    );
     return;
   } else {
     console.error('No config file found; exiting');
