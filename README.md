@@ -2,6 +2,12 @@
 
 Combine OSM files through `osmconvert` and NodeJS
 
+# Installation
+
+```shell
+npm i -g osm-combine
+```
+
 # Summary
 
 This is designed to quickly combine `osm.pbf` files without manually writing out the pipe commands or making intermediate files. All you need is a list of files in a JSON array to process. The idea is that, if you have a workflow that demands this kind of process multiple times a day/week, it should save you time.
