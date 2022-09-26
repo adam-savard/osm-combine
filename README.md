@@ -16,7 +16,7 @@ Simply run `osm-combine` in the directory with `osm-combine.json` and it will pr
 
 # Note
 
-This will download `osmconvert` to a `${__dirname}/osmc`, but it will _not_ add it to your $PATH.
+This will download `osmconvert` to `${__dirname}/osmc`, but it will _not_ add it to your $PATH.
 
 # `osm-combine.json`
 
