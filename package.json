@@ -1,0 +1,29 @@
+{
+  "name": "osm-combine",
+  "version": "1.0.0",
+  "description": "Combine osm.pbf files through osmconvert and NodeJS",
+  "main": "src/app.js",
+  "keywords": [
+    "osm",
+    "openstreetmaps",
+    "pbf",
+    ".osm",
+    ".osm.pbf"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adam-savard/osm-combine.git"
+  },
+  "author": "Adam Savard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adam-savard/osm-combine/issues"
+  },
+  "homepage": "https://github.com/adam-savard/osm-combine#readme",
+  "bin": {
+    "osm-combine": "src/app.js"
+  }
+}
